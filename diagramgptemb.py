@@ -156,7 +156,7 @@ def main():
     # Model selection and temperature adjustment
     model = st.sidebar.selectbox(
         "Select Claude Model:",
-        ["claude-3-opus-20240229", "claude-3-5-sonnet-20240620"],
+        ["claude-3-5-sonnet-20241022", "claude-3-5-sonnet-20241022"],
         index=0
     )
     temperature = st.sidebar.slider("Adjust Temperature:", min_value=0.0, max_value=1.0, value=0.5, step=0.1)
